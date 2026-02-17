@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="index, follow">
+    <meta name="description" content="Portfolio de Uriel Celli, estudiante de programacion en UTN">
+
+    <title>Uriel Celli</title>
+    
+    <link rel="icon" type="image/svg+xml" href="/img/favicon.svg">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="/style/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body class="background">
+<header class="header">
+<div>
+    <a href="#"><img src="/img/logo.png" class="logo" alt="logo"></a>
+</div>
+<div class="nav__icons">
+    <input type="radio" id="clear" name="option" value="clear">
+  <label for="clear"><i class="bi bi-trash btn--abrir"></i></i></label>
+
+  <input type="radio" id="ghost" name="option" value="ghost">
+  <label for="ghost"><i class="bi bi-snapchat btn--abrir"></i></label>
+
+  <input type="radio" id="rocket" name="option" value="rocket">
+  <label for="rocket"><i class="bi bi-rocket btn--abrir"></i></label>
+
+  <input type="radio" id="fire" name="option" value="fire">
+  <label for="fire"><i class="bi bi-fire btn--abrir"></i></label>
+</div>
+<button class="btn--abrir" id="btn--abrir"><i class="bi bi-list"></i></button>
+<nav class="nav" id="nav">
+    <ul class="nav__list">
+        <li><button class="btn--cerrar" id="btn--cerrar"><i class="bi bi-x"></i></button></li>
+        <li><a class="btn btn__nav" href="#proyectos">Proyectos</a></li>
+        <li><a class="btn btn__nav" href="#presentacion">Quién soy</a></li>
+        <li><a class="btn btn__nav" href="#contacto">Contacto</a></li>
+    </ul>
+</nav>
+</header>
+<main class="main">
+<!-- Titulo -->
+    <section id="presentacion"class="presentacion">
+        <section class="presentacion__persona">
+            <article class="presentacion__descripcion centrado">
+                <header class="presentacion__header">
+                    <h1 class="presentacion__nombre">Uriel Celli</h1>
+                </header>
+<!-- Descripcion -->
+                <p class="presentacion__quiensoy">Desarrollador en formación en UTN. Me destaco por el pensamiento lógico, la resolución eficiente de problemas y el trabajo en equipo. Busco crecer en entornos tecnológicos donde pueda aportar proactividad, organización y compromiso en la construcción de soluciones sólidas.</p>
+            </article>
+            <seccion class="presentacion__descripcion presentacion__estudios">
+                <header>
+                    <h2 class="presentacion__estudios--titulo">Estudios</h2>
+                </header>
+                <article class="presentacion__articulo">
+                    <a href="https://www.frgp.utn.edu.ar/" target="_blank" rel="noopener noreferrer"> <img class="articulo__img" src="/img/utn.png" alt="UTN FRGP"></a>
+                    <h3>Tecnicatura en Programación</h3>
+                    <p>Formación en programación en C++ en la Universidad Tecnológica Nacional, enfocado en lógica, estructuras de datos y resolución eficiente de problemas.</p>
+                </article>
+                <article class="presentacion__articulo">
+                    <a href="https://brianlara.com.ar/social/" target="_blank" rel="noopener noreferrer"><img class="avatar-neon" src="https://links.theregext.com/img/logo.jpg" alt="Brian"></a>
+                    <h3>Maquetacion Web + JavaScript</h3>
+                    <p>Formación en Maquetación Web + JavaScript orientada al desarrollo frontend. Implementación de diseño responsivo, Flexbox y Grid, consumo básico de datos y programación con JavaScript para generar interactividad dinámica en aplicaciones web.</p>
+                </article>
+            </seccion>
+        </section>
+       <!-- stack -->
+        <article class="presentacion__stack">
+            <img class="img" src="/img/js.png" alt="JavaScript">
+            <img class="img" src="/img/html-5.png" alt="Html">
+            <img class="img" src="/img/css-3.png" alt="css">
+            <img class="img" src="/img/c++.png" alt="c++">
+        </article>
+    </section>
+<!-- proyectos -->
+<section class="seccion__proyectos">
+<header>
+    <h2 class="proyectos__titulo">Proyectos</h2>
+</header>
+    <section id="proyectos"class="proyectos">
+        <article class="proyecto__articulo">
+            <img class="proyectos__imagen" src="" alt="primer proyecto">
+            <header>
+                <h3>Titulo del proyecto</h3>
+            </header>
+            <p class="proyectos__descripcion">Descripcion del proyecto</p>
+            <footer>
+                <small>Herramientas: usadas en el proyecto</small>
+            </footer>
+        </article>
+         <article class="proyecto__articulo">
+            <img class="proyectos__imagen" src="" alt="primer proyecto">
+            <header>
+                <h3>Titulo del proyecto</h3>
+            </header>
+            <footer>
+                <span class="proyectos__descripcion">Descripcion del proyecto</span>
+            </footer>
+            <small>Herramientas: usadas en el proyecto</small>
+        </article>
+         <article class="proyecto__articulo">
+            <img class="proyectos__imagen" src="" alt="primer proyecto">
+            <header>
+                <h3>Titulo del proyecto</h3>
+            </header>
+            <footer>
+                <span class="proyectos__descripcion">Descripcion del proyecto</span>
+            </footer>
+            <small>Herramientas: usadas en el proyecto</small>
+        </article>
+    </section>
+</section>
+</main>
+<footer class="footer">
+ <!-- contacto -->
+  <div id="contacto"class="contacto">
+    <a href="https://www.linkedin.com/in/urielcelli/" target="_blank" rel="noopener noreferrer"><img class="img"src="/img/linkedin.png" alt="linkedin"></a>
+    <a href="https://github.com/Celur" target="_blank" rel="noopener noreferrer"><img class="img github"src="/img/github1.png" alt="GitHub"></a>
+    <a href="mailto:urielcelli.ok@gmail.com"><img class="img"src="/img/gmail.png" alt="mail"></a>
+  </div>
+</footer>
+<script src="/js/script.js"></script>
+</body>
+</html>
