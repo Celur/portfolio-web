@@ -42,6 +42,25 @@ body{
   cursor: pointer;
 }
 
+.contacto__cv{
+    border-radius: 1rem ;
+    height: 3.125rem;
+    font-weight: bold;
+    border: 2px solid black;
+    cursor: pointer;
+    background-color: transparent;
+    color: #e5e5e5;
+}
+
+.contacto__cv:hover{
+    box-shadow: 0 0 15px #b519f8dd;
+    background: linear-gradient(
+        to bottom,
+        rgb(33, 2, 41),
+        rgb(88, 6, 108)
+    );
+}
+
 .btn--abrir:hover{
     background-color: #e5e5e523;
     border-radius: 2rem;
