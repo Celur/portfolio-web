@@ -23,6 +23,6 @@ index.html
 This project represents my progress as a frontend developer in training, focusing on clean code, layout structure and DOM manipulation.
 
 ## 🌎 Live Demo
-/**/
+https://celur.github.io/portfolio-web/
 
 Developed by Uriel Celli
