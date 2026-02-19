@@ -142,6 +142,13 @@ body{
     margin: 1rem;
 }
 
+.formulario__msj {
+  margin-top: 1rem;
+  font-weight: bold;
+  min-height: 1.2em;
+}
+
+
 .formulario input:focus,
 .formulario textarea:focus {
   outline: none;
