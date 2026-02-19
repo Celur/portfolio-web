@@ -47,16 +47,33 @@
 <!-- Titulo -->
     <section id="presentacion"class="presentacion">
         <section class="presentacion__persona">
-            <article class="presentacion__descripcion centrado">
-                <header class="presentacion__header">
-                    <h1 class="presentacion__nombre">Uriel Celli</h1>
-                </header>
+            <section>
+                <article class="presentacion__descripcion centrado">
+                    <header class="presentacion__header">
+                        <h2 class="presentacion__nombre proyectos__titulo">Sobre mí</h2>
+                    </header>
 <!-- Descripcion -->
-                <p class="presentacion__quiensoy">Desarrollador en formación en UTN. Me destaco por el pensamiento lógico, la resolución eficiente de problemas y el trabajo en equipo. Busco crecer en entornos tecnológicos donde pueda aportar proactividad, organización y compromiso en la construcción de soluciones sólidas.</p>
-            </article>
-            <seccion class="presentacion__descripcion presentacion__estudios">
+                    <p class="presentacion__quiensoy">Desarrollador en formación en UTN. Me destaco por el pensamiento lógico, la resolución eficiente de problemas y el trabajo en equipo. Busco crecer en entornos tecnológicos donde pueda aportar proactividad, organización y compromiso en la construcción de soluciones sólidas.</p>
+                </article>
+                <!-- Formulario -->
+                <article>
+                    <form class="formulario"action="https://formspree.io/f/xjgeopnz" method="POST" autocomplete="off">
+                        <h2 class="proyectos__titulo">Contactame</h2>
+                        <label for="name">Nombre: </label>
+                        <input type="text" name="name" id="name" placeholder="Nombre.." required>
+                        <label for="email">Email: </label>
+                        <input type="email" id="email" name="email" placeholder="hola@gmail.com" required>
+                        <label for="mensaje">Mensaje: </label>
+                        <textarea id="mensaje" name="mensaje" maxlength="500" placeholder="Mensaje.." required></textarea>
+                    <!-- Honneypot propuesto por IA-->
+                        <input aria-hidden="true" type="text" name="company" tabindex="-1" autocomplete="off" style="display:none"/>
+                        <button type="submit">Enviar</button>
+                    </form>
+                </article>
+            </section>
+            <section class="presentacion__descripcion presentacion__estudios">
                 <header>
-                    <h2 class="presentacion__estudios--titulo">Estudios</h2>
+                    <h2 class="presentacion__estudios--titulo proyectos__titulo">Estudios</h2>
                 </header>
                 <article class="presentacion__articulo">
                     <a href="https://www.frgp.utn.edu.ar/" target="_blank" rel="noopener noreferrer"> <img class="articulo__img" src="img/utn.png" alt="UTN FRGP"></a>
@@ -68,7 +85,7 @@
                     <h3>Maquetacion Web + JavaScript</h3>
                     <p>Formación en Maquetación Web + JavaScript orientada al desarrollo frontend. Implementación de diseño responsivo, Flexbox y Grid, consumo básico de datos y programación con JavaScript para generar interactividad dinámica en aplicaciones web.</p>
                 </article>
-            </seccion>
+            </section>
         </section>
        <!-- stack -->
         <article class="presentacion__stack">
@@ -81,7 +98,7 @@
 <!-- proyectos -->
 <section class="seccion__proyectos">
 <header>
-    <h2 class="proyectos__titulo">Proyectos</h2>
+    <h1 class="proyectos__titulo">Proyectos</h1>
 </header>
     <section id="proyectos"class="proyectos">
         <article class="proyecto__articulo">

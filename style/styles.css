@@ -132,6 +132,52 @@ body{
     margin-bottom: 1rem;
 }
 
+.formulario{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    box-shadow: 0 0 10px rgb(68, 68, 68);
+    border-radius: 1rem ;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.formulario input:focus,
+.formulario textarea:focus {
+  outline: none;
+  border: 2px solid #2173f7;
+}
+
+.formulario textarea{
+    width: 100%;
+    height: 150px;
+    resize: none;
+    border-radius: 1rem;
+    padding: 0.5rem;
+    font-size: 1rem;
+}
+
+.formulario input{
+    width: 50%;
+    height: 2rem;
+    padding: 0.5rem;
+
+}
+
+.formulario button{
+    font-weight: bold;
+    background-color: #2173f7;
+    color: white;
+    width: 20%;
+    height: 3rem;
+    border-radius: .5rem;
+    cursor: pointer;
+}
+
+.formulario button:hover{
+    background-color: #5a96f5;
+}
+
 .presentacion__persona{
     display: flex;
 }
@@ -193,7 +239,6 @@ body{
 
 .presentacion__nombre,
 .presentacion__estudios--titulo{
-    text-decoration: underline;
     text-align: center;
     padding-bottom: 1rem;
 }
@@ -201,6 +246,7 @@ body{
 .proyectos__titulo{
     text-align: center;
     color: #3b82f6;
+    text-shadow: 0 0 10px #4e8ff7c2;
 }
 
 .proyecto__articulo{
